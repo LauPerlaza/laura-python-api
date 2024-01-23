@@ -16,5 +16,5 @@ COPY . .
 # Expone el puerto en el que la aplicación se ejecutará
 EXPOSE 9809
 
-# Comando para ejecutar tu aplicación (ajústalo según tu app)
+# Comando para ejecutar tu aplicación
 CMD ["python", "api.py"]
