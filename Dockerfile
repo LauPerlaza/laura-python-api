@@ -1,5 +1,5 @@
 # Usa una imagen de Python desde Docker Hub
-FROM python:3.9
+FROM python:3.12.1-slim-bullseye
 
 # Establece el directorio de trabajo en /app
 WORKDIR /app-api
